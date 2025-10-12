@@ -1,7 +1,7 @@
 //Name : Rajveer Singh Saini
 //ID : 24159567
 
-package Lab2;
+package OOPS.Lab2;
 
 // importing Math library
 import java.lang.Math ;
