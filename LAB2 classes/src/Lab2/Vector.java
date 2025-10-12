@@ -6,6 +6,7 @@ package Lab2;
 // importing Math library
 import java.lang.Math ;
 
+//Creating a new class Vector
 public class Vector {
     public double x, y;
 
