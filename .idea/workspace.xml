@@ -55,7 +55,10 @@
     "Application.VendingMachineMain.executor": "Run",
     "Application.main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.QueryStringTesting.GettingParms.executor": "Run",
+    "JUnit.QueryStringTesting.executor": "Run",
     "JUnit.VendingMachineTest.executor": "Run",
+    "JUnit.VendingMachineTest.testInitialRevenue.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -82,7 +85,54 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.QueryStringTesting.testEmptyQuery">
+    <configuration name="QueryStringTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LAB3_JAVA_24159567_Rajveer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab3" />
+      <option name="MAIN_CLASS_NAME" value="Lab3.QueryStringTesting" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryStringTesting.GettingParms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LAB3_JAVA_24159567_Rajveer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab3" />
+      <option name="MAIN_CLASS_NAME" value="Lab3.QueryStringTesting" />
+      <option name="METHOD_NAME" value="GettingParms" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryStringTesting.testEmptyQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LAB3_JAVA_24159567_Rajveer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab3" />
+      <option name="MAIN_CLASS_NAME" value="Lab3.QueryStringTesting" />
+      <option name="METHOD_NAME" value="testEmptyQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VendingMachineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LAB3_JAVA_24159567_Rajveer" />
       <extension name="coverage">
@@ -98,8 +148,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VendingMachineTest.testInitialRevenue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LAB3_JAVA_24159567_Rajveer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lab3" />
+      <option name="MAIN_CLASS_NAME" value="Lab3.VendingMachineTest" />
+      <option name="METHOD_NAME" value="testInitialRevenue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueryStringTesting.testEmptyQuery" />
+        <item itemvalue="JUnit.QueryStringTesting" />
+        <item itemvalue="JUnit.VendingMachineTest.testInitialRevenue" />
+        <item itemvalue="JUnit.QueryStringTesting.GettingParms" />
         <item itemvalue="JUnit.VendingMachineTest" />
       </list>
     </recent_temporary>
@@ -134,7 +204,7 @@
       <workItem from="1760352376481" duration="1537000" />
       <workItem from="1760354211390" duration="266000" />
       <workItem from="1760359292986" duration="925000" />
-      <workItem from="1760393911097" duration="14199000" />
+      <workItem from="1760393911097" duration="25111000" />
     </task>
     <servers />
   </component>
