@@ -9,6 +9,7 @@ public class QueryStringTesting {
     @Test
     public void testGetParameters(){
         QueryString QT = new QueryString("name=Alice&age=19&country=UK"); //Query Parameter
+
         assertEquals("Alice", QT.getParameter("name"));
         assertEquals("19", QT.getParameter("age"));
         assertEquals("UK", QT.getParameter("country"));
@@ -21,6 +22,7 @@ public class QueryStringTesting {
     @Test
     public void testHasParameters(){
         QueryString QT = new QueryString("name=Alice&age=19&country=UK");
+
         assertTrue(QT.hasParameter("name"));
         assertTrue(QT.hasParameter("age"));
         assertTrue(QT.hasParameter("country"));
@@ -55,10 +57,10 @@ public class QueryStringTesting {
 
     @Test
     public void testEmptyQuery() {
-        QueryString qs = new QueryString("");
-        assertFalse(qs.hasParameter("name"));
-        assertNull(qs.getParameter("name"));
-        assertEquals(-1, qs.getParameterOffset("name"));
+        QueryString QT = new QueryString("");
+        assertFalse(QT.hasParameter("name"));
+        assertNull(QT.getParameter("name"));
+        assertEquals(-1, QT.getParameterOffset("name"));
     }
 
 

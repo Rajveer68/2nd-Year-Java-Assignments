@@ -35,10 +35,10 @@
     &quot;accountId&quot;: &quot;5542a162-d15f-42f5-9294-9f15dbba5552&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -57,6 +57,7 @@
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.QueryStringTesting.GettingParms.executor": "Run",
     "JUnit.QueryStringTesting.executor": "Run",
+    "JUnit.QueryStringTesting.testEmptyQuery.executor": "Run",
     "JUnit.VendingMachineTest.executor": "Run",
     "JUnit.VendingMachineTest.testInitialRevenue.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -77,7 +78,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/rajve/OneDrive/Desktop/My Assinments/Java second year assignments/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15039062",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propCompiler",
@@ -85,7 +86,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.QueryStringTesting.testEmptyQuery">
+  <component name="RunManager" selected="JUnit.QueryStringTesting">
     <configuration name="QueryStringTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LAB3_JAVA_24159567_Rajveer" />
       <extension name="coverage">
@@ -204,7 +205,10 @@
       <workItem from="1760352376481" duration="1537000" />
       <workItem from="1760354211390" duration="266000" />
       <workItem from="1760359292986" duration="925000" />
-      <workItem from="1760393911097" duration="25111000" />
+      <workItem from="1760393911097" duration="25405000" />
+      <workItem from="1760454258327" duration="1479000" />
+      <workItem from="1760526704682" duration="204000" />
+      <workItem from="1760535373699" duration="2622000" />
     </task>
     <servers />
   </component>
