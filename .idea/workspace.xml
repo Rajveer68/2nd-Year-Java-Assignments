@@ -68,6 +68,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -210,6 +211,7 @@
       <workItem from="1760526704682" duration="204000" />
       <workItem from="1760535373699" duration="2767000" />
       <workItem from="1760619822609" duration="2696000" />
+      <workItem from="1760624668917" duration="156000" />
     </task>
     <servers />
   </component>
