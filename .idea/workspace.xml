@@ -78,7 +78,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/rajve/OneDrive/Desktop/My Assinments/Java second year assignments/src/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15039062",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propCompiler",
@@ -167,8 +167,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QueryStringTesting.testEmptyQuery" />
         <item itemvalue="JUnit.QueryStringTesting" />
+        <item itemvalue="JUnit.QueryStringTesting.testEmptyQuery" />
         <item itemvalue="JUnit.VendingMachineTest.testInitialRevenue" />
         <item itemvalue="JUnit.QueryStringTesting.GettingParms" />
         <item itemvalue="JUnit.VendingMachineTest" />
@@ -208,7 +208,8 @@
       <workItem from="1760393911097" duration="25405000" />
       <workItem from="1760454258327" duration="1479000" />
       <workItem from="1760526704682" duration="204000" />
-      <workItem from="1760535373699" duration="2622000" />
+      <workItem from="1760535373699" duration="2767000" />
+      <workItem from="1760619822609" duration="2696000" />
     </task>
     <servers />
   </component>
