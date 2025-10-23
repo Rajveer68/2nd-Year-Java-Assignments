@@ -50,7 +50,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.GuessWhat.executor": "Run",
     "Application.ShapesMain.executor": "Run",
+    "Application.Tamagotchi.executor": "Run",
     "Application.TenGreenBottles.executor": "Run",
     "Application.VendingMachineMain.executor": "Run",
     "Application.main.executor": "Run",
@@ -79,15 +81,22 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/rajve/OneDrive/Desktop/My Assinments/Java second year assignments/src/Main.java",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15039062",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.30724972",
     "settings.editor.selected.configurable": "project.propCompiler",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.QueryStringTesting">
+  <component name="RunManager">
     <configuration name="QueryStringTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LAB3_JAVA_24159567_Rajveer" />
       <extension name="coverage">
@@ -211,7 +220,13 @@
       <workItem from="1760526704682" duration="204000" />
       <workItem from="1760535373699" duration="2767000" />
       <workItem from="1760619822609" duration="2696000" />
-      <workItem from="1760624668917" duration="156000" />
+      <workItem from="1760624668917" duration="514000" />
+      <workItem from="1760660344610" duration="238000" />
+      <workItem from="1760662097550" duration="43000" />
+      <workItem from="1760662317973" duration="13000" />
+      <workItem from="1761177112261" duration="621000" />
+      <workItem from="1761223989426" duration="2457000" />
+      <workItem from="1761226825250" duration="1226000" />
     </task>
     <servers />
   </component>
