@@ -16,13 +16,23 @@ public class Tamagotchi {
         this.tiredness = 5;
     }
 
-    // ====== Getters ======
-    public int getHungriness() { return hungriness; }
-    public int getHappiness() { return happiness; }
-    public int getCleanness() { return cleanness; }
-    public int getTiredness() { return tiredness; }
+    // Getters
+    public int getHungriness() { 
+    	return hungriness; 
+    	}
+    
+    public int getHappiness() { 
+    	return happiness; 
+    	}
+    
+    public int getCleanness() {
+    	return cleanness; 
+    	}
+    public int getTiredness() {
+    	return tiredness;
+    	}
 
-    // ====== Actions ======
+    // Actions
     public void feed() {
         hungriness -= 5;
         if (hungriness < 0) hungriness = 0;
@@ -48,7 +58,7 @@ public class Tamagotchi {
         System.out.println("You petted your Tamagotchi.");
     }
 
-    // ====== Mood Logic ======
+    // Mood Logic
     public String getMood() {
         if (tiredness == 10) return "asleep";
         else if (tiredness >= 8) return "tired";
@@ -59,7 +69,7 @@ public class Tamagotchi {
         else return "sad";
     }
 
-    // ====== Pass Time ======
+    // Pass Time
     public void passTime() {
         hungriness += 1;
         cleanness -= 1;
@@ -77,7 +87,7 @@ public class Tamagotchi {
         System.out.println("Time passes...");
     }
 
-    // ====== Clamp values between 0 and 10 ======
+    // Clamp values between 0 and 10
     private void limitValues() {
         hungriness = Math.max(0, Math.min(10, hungriness));
         happiness = Math.max(0, Math.min(10, happiness));
@@ -85,7 +95,7 @@ public class Tamagotchi {
         tiredness = Math.max(0, Math.min(10, tiredness));
     }
 
-    // ====== Show stats ======
+    // Show stats
     public void showStats() {
         System.out.println("\nTamagotchi Status:");
         System.out.println("Hungriness: " + hungriness);
@@ -95,7 +105,7 @@ public class Tamagotchi {
         System.out.println("Mood:       " + getMood());
     }
 
-    // ====== Interactive main ======
+    // Interactive main
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Tamagotchi t = new Tamagotchi();
