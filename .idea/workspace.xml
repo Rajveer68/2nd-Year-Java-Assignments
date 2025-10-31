@@ -48,62 +48,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.GuessWhat.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShapesMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tamagotchi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TenGreenBottles.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestScrabble.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VendingMachineMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.QueryStringTesting.GettingParms.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QueryStringTesting.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QueryStringTesting.testEmptyQuery.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.VendingMachineTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.VendingMachineTest.testInitialRevenue.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rajve/OneDrive/Desktop/My Assinments/Java second year assignments&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/rajve/OneDrive/Desktop/My Assinments/Java second year assignments/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15039062&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.30724972&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GuessWhat.executor": "Run",
+    "Application.MapPrinterMain.executor": "Run",
+    "Application.ShapesMain.executor": "Run",
+    "Application.Tamagotchi.executor": "Run",
+    "Application.TenGreenBottles.executor": "Run",
+    "Application.TestScrabble.executor": "Run",
+    "Application.TestScrabbleBoardPrinter.executor": "Run",
+    "Application.VendingMachineMain.executor": "Run",
+    "Application.main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.QueryStringTesting.GettingParms.executor": "Run",
+    "JUnit.QueryStringTesting.executor": "Run",
+    "JUnit.QueryStringTesting.testEmptyQuery.executor": "Run",
+    "JUnit.VendingMachineTest.executor": "Run",
+    "JUnit.VendingMachineTest.testInitialRevenue.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rajve/OneDrive/Desktop/My Assinments/Java second year assignments",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/rajve/OneDrive/Desktop/My Assinments/Java second year assignments/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15039062",
+    "project.structure.side.proportion": "0.30724972",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rajve\OneDrive\Desktop\My Assinments\Java second year assignments\LAB4_JAVA_24159567_Rajveer\src\LAB4" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueryStringTesting">
+  <component name="RunManager">
     <configuration name="QueryStringTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LAB3_JAVA_24159567_Rajveer" />
       <extension name="coverage">
@@ -241,6 +243,7 @@
       <workItem from="1761303386330" duration="8000" />
       <workItem from="1761911388684" duration="954000" />
       <workItem from="1761912650825" duration="160000" />
+      <workItem from="1761912864387" duration="6491000" />
     </task>
     <servers />
   </component>
