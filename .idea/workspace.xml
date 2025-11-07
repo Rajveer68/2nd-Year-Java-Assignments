@@ -52,6 +52,8 @@
   "keyToString": {
     "Application.GuessWhat.executor": "Run",
     "Application.MapPrinterMain.executor": "Run",
+    "Application.RainfallProgram.executor": "Run",
+    "Application.RainfallStatsTest.executor": "Run",
     "Application.ShapesMain.executor": "Run",
     "Application.Tamagotchi.executor": "Run",
     "Application.TenGreenBottles.executor": "Run",
@@ -63,6 +65,7 @@
     "JUnit.QueryStringTesting.GettingParms.executor": "Run",
     "JUnit.QueryStringTesting.executor": "Run",
     "JUnit.QueryStringTesting.testEmptyQuery.executor": "Run",
+    "JUnit.RainfallStatsTest.executor": "Run",
     "JUnit.VendingMachineTest.executor": "Run",
     "JUnit.VendingMachineTest.testInitialRevenue.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -153,16 +156,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VendingMachineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LAB3_JAVA_24159567_Rajveer" />
+    <configuration name="RainfallStatsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LAB6_JAVA_24159567_Rajveer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab3.*" />
+          <option name="PATTERN" value="LAB6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lab3" />
-      <option name="MAIN_CLASS_NAME" value="Lab3.VendingMachineTest" />
+      <option name="PACKAGE_NAME" value="LAB6" />
+      <option name="MAIN_CLASS_NAME" value="LAB6.RainfallStatsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RainfallStatsTest" />
         <item itemvalue="JUnit.QueryStringTesting" />
         <item itemvalue="JUnit.QueryStringTesting.testEmptyQuery" />
         <item itemvalue="JUnit.VendingMachineTest.testInitialRevenue" />
         <item itemvalue="JUnit.QueryStringTesting.GettingParms" />
-        <item itemvalue="JUnit.VendingMachineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +246,11 @@
       <workItem from="1761303386330" duration="8000" />
       <workItem from="1761911388684" duration="954000" />
       <workItem from="1761912650825" duration="160000" />
-      <workItem from="1761912864387" duration="6491000" />
+      <workItem from="1761912864387" duration="6545000" />
+      <workItem from="1761920586786" duration="16000" />
+      <workItem from="1762442251030" duration="2384000" />
+      <workItem from="1762444685597" duration="834000" />
+      <workItem from="1762524684615" duration="2433000" />
     </task>
     <servers />
   </component>
