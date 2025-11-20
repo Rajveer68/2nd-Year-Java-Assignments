@@ -7,6 +7,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/find-best-phones-master/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/find-best-phones-master/out" />
+      <excludeFolder url="file://$MODULE_DIR$/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
