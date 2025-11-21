@@ -12,25 +12,25 @@ public class MainTest {
 	
 	@Test
 	public void testAddCommand() throws Exception {
-		main.parseAndExecute("add Alice 12345");
-		PhoneBookEntry entry = phoneBook.getEntry("alice");
+		main.parseAndExecute("add Rajveer 12345");
+		PhoneBookEntry entry = phoneBook.getEntry("Rajveer");
 		assertEquals("12345", entry.getPhoneNumber()); 
 	}
 	
 	@Test
 	public void testUpdateCommand() throws Exception {
-		main.parseAndExecute("add Alice 12345");
-		main.parseAndExecute("update alice 67890");
-		PhoneBookEntry entry = phoneBook.getEntry("alice");
+		main.parseAndExecute("add Rajveer 12345");
+		main.parseAndExecute("update Rajveer 67890");
+		PhoneBookEntry entry = phoneBook.getEntry("Rajveer");
 		assertEquals("67890", entry.getPhoneNumber());
 	}
 	
 	@Test
 	public void testRemoveCommand() throws Exception {
-		main.parseAndExecute("add Alice 12345");
-		main.parseAndExecute("remove alice");
+		main.parseAndExecute("add Rajveer 12345");
+		main.parseAndExecute("remove Rajveer");
 		try {
-			phoneBook.getEntry("alice");
+			phoneBook.getEntry("Rajveer");
 			fail();
 		} catch(NotPresentException ex) {
 			// test passes
@@ -39,12 +39,12 @@ public class MainTest {
 	
 	@Test(expected = AlreadyPresentException.class)
 	public void testAddAlreadyPresent() throws Exception {
-		main.parseAndExecute("add Alice 12345");
-		main.parseAndExecute("add Alice 67890");
+		main.parseAndExecute("add Rajveer 12345");
+		main.parseAndExecute("add Rajveer 67890");
 	}
 	
 	@Test(expected = NotPresentException.class)
 	public void testShowNotPresent() throws Exception {
-		main.parseAndExecute("show alice");
+		main.parseAndExecute("show Rajveer");
 	}
 }

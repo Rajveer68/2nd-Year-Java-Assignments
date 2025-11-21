@@ -52,7 +52,7 @@
   "keyToString": {
     "Application.FindBestPhones.executor": "Run",
     "Application.GuessWhat.executor": "Run",
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "Application.MapPrinterMain.executor": "Run",
     "Application.RainfallProgram.executor": "Run",
     "Application.RainfallStatsTest.executor": "Run",
@@ -65,6 +65,8 @@
     "Application.main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.MainTest.executor": "Run",
+    "JUnit.PhoneBookTest.executor": "Run",
+    "JUnit.PhoneBookTest.testGetAllNames.executor": "Run",
     "JUnit.QueryStringTesting.GettingParms.executor": "Run",
     "JUnit.QueryStringTesting.executor": "Run",
     "JUnit.QueryStringTesting.testEmptyQuery.executor": "Run",
@@ -115,7 +117,53 @@
       <recent name="C:\Users\rajve\OneDrive\Desktop\My Assinments\Java second year assignments\LAB8_JAVA_24159567_Rajveer\src\test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PhoneBookTest">
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LAB8_JAVA_24159567_Rajveer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bcu.Rajveer.phonebook.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bcu.Rajveer.phonebook.test" />
+      <option name="MAIN_CLASS_NAME" value="bcu.Rajveer.phonebook.test.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LAB8_JAVA_24159567_Rajveer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bcu.Rajveer.phonebook.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bcu.Rajveer.phonebook.test" />
+      <option name="MAIN_CLASS_NAME" value="bcu.Rajveer.phonebook.test.PhoneBookTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneBookTest.testGetAllNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LAB8_JAVA_24159567_Rajveer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bcu.Rajveer.phonebook.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bcu.Rajveer.phonebook.test" />
+      <option name="MAIN_CLASS_NAME" value="bcu.Rajveer.phonebook.test.PhoneBookTest" />
+      <option name="METHOD_NAME" value="testGetAllNames" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QueryStringTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LAB3_JAVA_24159567_Rajveer" />
       <extension name="coverage">
@@ -127,38 +175,6 @@
       <option name="PACKAGE_NAME" value="Lab3" />
       <option name="MAIN_CLASS_NAME" value="Lab3.QueryStringTesting" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryStringTesting.GettingParms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LAB3_JAVA_24159567_Rajveer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lab3" />
-      <option name="MAIN_CLASS_NAME" value="Lab3.QueryStringTesting" />
-      <option name="METHOD_NAME" value="GettingParms" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryStringTesting.testEmptyQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LAB3_JAVA_24159567_Rajveer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lab3" />
-      <option name="MAIN_CLASS_NAME" value="Lab3.QueryStringTesting" />
-      <option name="METHOD_NAME" value="testEmptyQuery" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,29 +194,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VendingMachineTest.testInitialRevenue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LAB3_JAVA_24159567_Rajveer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lab3" />
-      <option name="MAIN_CLASS_NAME" value="Lab3.VendingMachineTest" />
-      <option name="METHOD_NAME" value="testInitialRevenue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PhoneBookTest" />
+        <item itemvalue="JUnit.PhoneBookTest.testGetAllNames" />
+        <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.QueryStringTesting" />
         <item itemvalue="JUnit.RainfallStatsTest" />
-        <item itemvalue="JUnit.QueryStringTesting.testEmptyQuery" />
-        <item itemvalue="JUnit.VendingMachineTest.testInitialRevenue" />
-        <item itemvalue="JUnit.QueryStringTesting.GettingParms" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +263,7 @@
       <workItem from="1763129472440" duration="816000" />
       <workItem from="1763130336035" duration="605000" />
       <workItem from="1763549369517" duration="6618000" />
-      <workItem from="1763644050327" duration="4495000" />
+      <workItem from="1763644050327" duration="11453000" />
     </task>
     <servers />
   </component>
